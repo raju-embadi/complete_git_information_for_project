@@ -1,0 +1,196 @@
+# What is GIT?
+
+The tool that tracks changes on our local computer means save the history of actions.
+
+In simple words:
+
+Suppose assume you're writing a book on Word or notepad++
+
+Day 1: I started writing a book of my auto biography and i saved it as AutoBiOGraphy_Raju.txt
+
+Here i am bit slow so i can not complete all my story in a sungle day so 
+
+Day 2: i added some more information to earlier file and saved it as AutoBiOGraphy_Raju_2.txt
+
+Day 3: adding some other story of my life and saved it as AutoBiOGraphy_Raju_3.txt
+
+```python
+After few days my files look like 
+AutoBiOGraphy_Raju.txt
+AutoBiOGraphy_Raju_2.txt
+AutoBiOGraphy_Raju_3.txt
+..
+..
+..
+AutoBiOGraphy_Raju_complete.txt
+```
+
+Now imagine i asked one of my friend to review the all files one by one
+Accidentally he deletes one of file or i only realized one of file story i can write in better way so i need to modify
+
+**here git solves the problem **
+
+Instead of saving lots of copies manually, Git remembers every change you make.
+
+Whenever i finish some work i will tell to git save my work
+
+"Remember the version"
+
+Later if something i need to modify or restore the deleted work , Git can bring back any previous verisons with in seconds.
+
+**Think of Git like CCTV footage:**
+
+Imagine a shop has CCTV cameras.
+
+If something happens today, you can watch yesterday's recording.
+
+You don't need to remember what happened.
+
+The camera recorded everything.
+
+Git works the same way.
+
+Instead of recording videos...
+
+It records changes in your code.
+
+Yesterday
+    ↓
+Today
+    ↓
+Tomorrow
+
+Git lets you go back to any point.
+
+**Why do software companies use Git?**
+
+Imagine 10 developers are working on the same project.
+
+Without Git...
+
+Person A changes Login page.
+
+Person B changes Login page.
+
+Person C changes Login page.
+
+Now everyone's files are different.
+
+Nobody knows whose changes are correct.
+
+Chaos.
+
+But With Git...
+
+Everyone works independently.
+
+Git combines their changes.
+
+If two people edit the same line, Git points it out so they can resolve the conflict.
+
+**Where does Git store everything?**
+
+Inside your project folder, Git creates a hidden folder called:
+
+```python
+.git
+```
+
+Think of it as a secret diary.
+
+It stores:
+
+Every saved version
+Who made each change
+When it was made
+What changed
+Why it changed (write the commit message)
+
+Your project might look like:
+
+ShoppingApp/
+
+    .git/
+    Login.java
+    Payment.java
+    Home.java
+
+Users only see your project files.
+
+Git quietly keeps track of all the history in the hidden .git folder.
+
+A day in a developer's life
+
+**Morning:**
+
+Project
+
+↓
+
+Add Login Feature
+
+↓
+
+Test it
+
+↓
+
+Everything works
+
+↓
+
+Tell Git:
+
+"Save this."
+
+Git creates
+
+📸 Commit #1
+
+**Afternoon:**
+
+Add Payment Feature
+
+↓
+
+Test
+
+↓
+
+Works
+
+↓
+
+**Tell Git:**
+
+"Save again."
+
+Git creates
+
+📸 Commit #2
+
+**Evening:**
+
+A bug appears.
+
+Instead of spending hours fixing it...
+
+The developer can go back to Commit #1 where everything was working.
+
+
+# So why is Git so popular?
+
+**Without Git:**
+
+You create many backup folders.
+You can lose work.
+Teams overwrite each other's changes.
+It's hard to know who changed what.
+
+**With Git:**
+
+Every change is tracked.
+You can restore old versions.
+Multiple developers can work together.
+You know who made each change and when.
+You can experiment without fear because you can always go back.
