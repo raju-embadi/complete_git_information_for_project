@@ -55,9 +55,9 @@ Instead of recording videos...
 It records changes in your code.
 
 Yesterday
-    ↓
+  ↓
 Today
-    ↓
+  ↓
 Tomorrow
 
 Git lets you go back to any point.
@@ -92,7 +92,7 @@ If two people edit the same line, Git points it out so they can resolve the conf
 
 Inside your project folder, Git creates a hidden folder called:
 
-```python
+```
 .git
 ```
 
@@ -100,20 +100,20 @@ Think of it as a secret diary.
 
 It stores:
 
-Every saved version
-Who made each change
-When it was made
-What changed
-Why it changed (write the commit message)
+- Every saved version
+- Who made each change
+- When it was made
+- What changed
+- Why it changed (write the commit message)
 
 Your project might look like:
 
 ShoppingApp/
 
-    .git/
-    Login.java
-    Payment.java
-    Home.java
+  .git/
+  Login.java
+  Payment.java
+  Home.java
 
 Users only see your project files.
 
@@ -182,15 +182,15 @@ The developer can go back to Commit #1 where everything was working.
 
 **Without Git:**
 
-You create many backup folders.
-You can lose work.
-Teams overwrite each other's changes.
-It's hard to know who changed what.
+- You create many backup folders.
+- You can lose work.
+- Teams overwrite each other's changes.
+- It's hard to know who changed what.
 
 **With Git:**
 
-Every change is tracked.
-You can restore old versions.
-Multiple developers can work together.
-You know who made each change and when.
-You can experiment without fear because you can always go back.
+- Every change is tracked.
+- You can restore old versions.
+- Multiple developers can work together.
+- You know who made each change and when.
+- You can experiment without fear because you can always go back.
