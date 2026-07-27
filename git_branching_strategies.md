@@ -89,11 +89,13 @@ This stable code is stored in
 main
 ```
 
+```python
 Think of main as the production branch.
 
                main
                  │
         Production Code
+```
 
 Day 2 - New Requirements Arrive
 
@@ -102,14 +104,15 @@ The Product Owner creates four stories.
 | Story                   | Developer |
 | ----------------------- | --------- |
 | Add Money Transfer      | Raju      |
-| Add Bill Payment        | Santosh      |
+| Add Bill Payment        | Santosh   |
 | Add Transaction History | Dibya     |
-| Fix Login Bug           | Shetty     |
+| Fix Login Bug           | Shetty    |
 
 If all four developers edit main, chaos begins.
 
 Instead
 
+```python
 Each developer creates their own branch.
 
                     main
@@ -119,24 +122,29 @@ Each developer creates their own branch.
 feature/money     feature/bill    feature/history
                       │
                bugfix/login
+```
 
 Day 3 - Raju Starts Working
 
 Raju creates
 
+```python
 git checkout main
 
 git pull
 
 git checkout -b feature/money-transfer
+```
 
 
 Git now creates
 
+```python
 main
    │
    └──────── feature/money-transfer
 
+```
 Both branches contain the same code initially.
 
 ```python
@@ -299,6 +307,7 @@ Balance
 
 Tuesday
 
+```python
 main
    │
    ├──────── feature/money
@@ -308,6 +317,7 @@ main
 
 ↓
 
+```
 Wednesday
 
 Everyone commits.
@@ -425,11 +435,11 @@ Reviews
 
 # Comments
 
-*Rename variable
+*Rename variable*
 
-Improve validation
+*Improve validation*
 
-Add logging*
+*Add logging*
 
 Developer fixes them.
 
@@ -459,7 +469,7 @@ Money Transfer
 
 Now everyone receives it.
 
-What Happens to the Branch?
+**What Happens to the Branch?**
 
 Usually it's deleted.
 
@@ -471,12 +481,14 @@ Because work is completed.
 
 Another Developer Pulls Latest Code
 
-Santosh runs
+*Santosh runs*
 
+```python
 git checkout main
 
 git pull
 
+```
 Now his machine gets
 
 ```python
@@ -493,19 +505,19 @@ He creates another branch from the updated main.
 
 A Merge Conflict Example
 
-Suppose Main has
+*Suppose Main has*
 
 String status = "Pending";
 
-Raju changes it to
+*Raju changes it to*
 
 String status = "Processing";
 
-Santosh changes it to
+*Santosh changes it to*
 
 String status = "Completed";
 
-Git sees
+*Git sees*
 
 *Which one is correct?*
 
@@ -521,6 +533,7 @@ String status = calculateStatus();
 
 Conflict resolved.
 
+```python
 Complete Enterprise Flow
                     GitHub
 
@@ -544,6 +557,7 @@ Complete Enterprise Flow
                      main
                        │
                   Production
+```
 
 How This Looks in Daily Office Life
 
@@ -552,12 +566,16 @@ Imagine it's 9:00 AM.
 Your team lead says:
 
 👨 Raju → Develop Money Transfer API
+
 👩 Santosh → Build Transaction History API
+
 👨 Dibya → Create Bill Payment API
+
 👩 Shetty → Fix Login Issue
 
 Each developer follows the same cycle:
 
+```python
 1. Pull latest code from main
             ↓
 2. Create a new feature branch
@@ -578,6 +596,7 @@ Each developer follows the same cycle:
             ↓
 10. Delete the feature branch
 
+```
 
 Branching Strategies:
 
