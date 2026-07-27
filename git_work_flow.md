@@ -8,13 +8,13 @@ But our code does not exists only on local machine or GIT HUB.
 
 There are 4 Main location where our code lives in GIT.
 
-I. **localWorking Directory:** where we actively edit files locally.
+  I. **localWorking Directory:** where we actively edit files locally.
 
-II. **Staging Area:** Its temporary holding spot for changes before commiting.
+  II. **Staging Area:** Its temporary holding spot for changes before commiting.
 
-III. **Local Repository:** Here is the place where we store committed changes locally.
+  III. **Local Repository:** Here is the place where we store committed changes locally.
 
-IV. **Remote Repository:** A server like GIT HUB for sharing and backing up the code.
+  IV. **Remote Repository:** A server like GIT HUB for sharing and backing up the code.
 
 So , most git commands move files between these four locations.
 
