@@ -1,32 +1,35 @@
-What is GIT Branch:
+**What is GIT Branch:**
 
 A Git branch is simply your own safe workspace where you can make changes without disturbing anyone else. When your work is complete and reviewed, it gets merged back into the main project.
 
 Just imagine team of 4 workers working on building a house.
 
-Worker A: Painting
+**Worker A:** Painting
 
-Worker B: Electric work
+**Worker B:** Electric work
 
-Worker C: plumbing
+**Worker C:** plumbing
 
-Worker D: Interior Design
+**Worker D:** Interior Design
 
 Now just imagine everyone working on same room
 
 What happens:
+    $$
     Worker A paints the wall
     Worker B drills holes for wiring
     Worker C break the wall to install pipe
     Worker D Change the wall color
+    $$
 here everyone overwriting each others work.
 
 Same like happens if all developers works on main branch directly.
 
 **So what git does here:**
-     Git says Do not work on main branch
+ Git says Do not work on main branch
 
-     Instead create your own copy of the room, That copy is called a Branch.
+Instead create your own copy of the room, That copy is called a Branch.
+```java
 
                     Main House
                     │
@@ -34,6 +37,7 @@ Same like happens if all developers works on main branch directly.
      │              │               │
  Painting      Plumbing      Electrical
   Branch         Branch          Branch
+```
 
 with this everyone works independently and no conflicts.
 
