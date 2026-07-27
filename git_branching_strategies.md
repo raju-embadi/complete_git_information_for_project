@@ -15,6 +15,7 @@ Just imagine team of 4 workers working on building a house.
 Now just imagine everyone working on same room
 
 What happens:
+
     Worker A paints the wall
     
     Worker B drills holes for wiring
@@ -258,11 +259,11 @@ Download Statement
 Still
 
 Main doesn't know anything about it.
-
+```python
 Shetty Finds a Production Bug
 
 Customers cannot login.
-
+```
 This is urgent.
 
 Instead of creating a feature branch,
@@ -573,11 +574,11 @@ Your team lead says:
 
 👨 Raju → Develop Money Transfer API
 
-👩 Santosh → Build Transaction History API
+👨 Santosh → Build Transaction History API
 
 👨 Dibya → Create Bill Payment API
 
-👩 Shetty → Fix Login Issue
+👨 Shetty → Fix Login Issue
 
 Each developer follows the same cycle:
 
