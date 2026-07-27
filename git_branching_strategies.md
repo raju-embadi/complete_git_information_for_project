@@ -15,12 +15,10 @@ Just imagine team of 4 workers working on building a house.
 Now just imagine everyone working on same room
 
 What happens:
-    $$
     Worker A paints the wall
     Worker B drills holes for wiring
     Worker C break the wall to install pipe
     Worker D Change the wall color
-    $$
 here everyone overwriting each others work.
 
 Same like happens if all developers works on main branch directly.
