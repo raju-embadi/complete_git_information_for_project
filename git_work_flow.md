@@ -18,3 +18,5 @@ So , most git commands move files between these four locations.
 You can go through below image for each step how the code flow between these four locations for better understanding in single place.
 
 ![GIT FLOW](image.png)
+<img width="950" height="636" alt="image" src="https://github.com/user-attachments/assets/78fd514f-de79-46f2-ae92-1709364fce35" />
+
